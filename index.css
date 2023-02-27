@@ -1,0 +1,171 @@
+* {
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER & NAV BAR */
+header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    background-color: black;
+}
+
+.logo {
+    padding: 10px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+ul {
+    display: flex;
+    gap: 10px;
+    margin-right: 10px;
+}
+
+ul li {
+    list-style: none;
+    padding-top: 10px;
+}
+
+/* HERO */
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.background {
+    width: 1200px; 
+    height: 700px;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 400px;
+    z-index: 1;
+    background-color: black;
+    width: 1200px;
+}
+
+/* Tea of the month */
+.tea-month {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.tea-month-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#featured-tea {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.tea-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tea-item img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* LOCATION */
+.location {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto 0;
+}
+
+.location-image {
+    overflow: hidden;
+}
+
+.location-image img {
+    width: 1200px;
+    height: 500px;
+    object-fit: cover;
+}
+
+#locations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -690px;
+    z-index: 3;
+}
+
+.addresses {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -1000px;
+    z-index: 2;
+}
+
+.downtown, .bayside, .oakdale {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+}
+
+/* FOOTER */
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    line-height: 0.5;
+}
+
+#copyright {
+    float: left;
+    padding-left: 20px;
+}
