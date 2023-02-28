@@ -4,6 +4,8 @@ This is a home page for a tea shop called 'Tea Cozy.' The project was a part of 
 
 You can find the design spec here: https://content.codecademy.com/courses/freelance-1/unit-4/img-tea-cozy-redline.jpg?_gl=1*1uihifa*_ga*MTIyOTM5Mzc1LjE2NzQxMjk0MDA.*_ga_3LRZM6TM9L*MTY3NzUwNTk3OS4xNDQuMS4xNjc3NTA2MDM4LjAuMC4w
 
+Here's the finished product: https://sleepyhead95.github.io/Tea-cozy/
+
 ## Languages
 - HTML
 - CSS
