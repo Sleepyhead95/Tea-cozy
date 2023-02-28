@@ -7,8 +7,7 @@ You can find the design spec here: https://content.codecademy.com/courses/freela
 Here's the finished product: https://sleepyhead95.github.io/Tea-cozy/
 
 ## Languages
-- HTML
-- CSS
+[![My Skills](https://skillicons.dev/icons?i=html,css)](https://skillicons.dev)
 
 ## Skills learned
 
